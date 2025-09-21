@@ -73,9 +73,11 @@ def convert_pdf_with_nested_lists(pdf_path: str, output_dir: str):
 
 
 if __name__ == "__main__":
-    input_file = "../examples/img.pdf"
-    output_dir = "../output"
-    # input_file = "../examples/Esai Keshav.pdf"
+    # input_file = "../examples/img.pdf"
     # output_dir = "../output"
+
+    input_file = "../examples/Esai Keshav.pdf"
+    output_dir = "../output"
+
     # convert_pdf_with_nested_lists("./Esai Keshav.pdf", "output")
     convert_pdf_with_nested_lists(input_file, output_dir)
