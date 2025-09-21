@@ -18,7 +18,7 @@ The project provides **two approaches** for converting PDFs to Markdown:
 - **Output:** Markdown files with either referenced images or embedded Base64 images.
 - **Advantages:** Quick setup, robust for machine-generated PDFs.
 
-### 1.2 Custom-built Pipeline (`approach_2.py`)
+### **1.2 Custom-built Pipeline (`approach_2.py`)**
 
 - **Core Components:**
 
@@ -27,14 +27,15 @@ The project provides **two approaches** for converting PDFs to Markdown:
   - Table extraction: [Camelot](https://camelot-py.readthedocs.io/en/master/)
   - Image processing: [Pillow](https://pillow.readthedocs.io/en/stable/)
 
-- **Responsibilities:**
+- **Responsibilities (Work in Progress):**
 
-  - Full OCR on scanned PDFs
-  - Custom text block and table detection
-  - Fine-grained image extraction and embedding
+  - **Attempting** full OCR on scanned PDFs.
+  - **Developing** custom text block and table detection, with varying accuracy.
+  - **Exploring** fine-grained image extraction and embedding methods.
 
-- **Output:** Markdown with embedded or referenced images, custom table formatting.
-- **Advantages:** Fully customizable, suitable for scanned or complex PDFs.
+- **Output:** Markdown with images (either embedded or referenced), **often** with basic table formatting.
+
+- **Advantages:** **Goal is** to be fully customizable for scanned or complex PDFs, though current results are inconsistent.
 
 ---
 
