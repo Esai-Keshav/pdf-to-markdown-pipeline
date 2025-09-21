@@ -6,7 +6,7 @@
 structured Markdown file (.md). The output must preserve headings, paragraphs, lists, figures,
 tables, and document hierarchy.
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
 

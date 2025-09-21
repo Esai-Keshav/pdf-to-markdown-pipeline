@@ -103,4 +103,4 @@ def pdf_to_md(pdf_path, md_path):
 
 # ------------------------ Run ------------------------
 if __name__ == "__main__":
-    pdf_to_md("./test.pdf", "output.md")
+    pdf_to_md("../examples/Esai Keshav.pdf", "output.md")
