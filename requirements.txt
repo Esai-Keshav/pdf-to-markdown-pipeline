@@ -1,0 +1,5 @@
+docling
+pymupdf
+python-doctr
+pillow
+camelot-py
