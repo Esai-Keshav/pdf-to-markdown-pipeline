@@ -16,7 +16,28 @@ tables, and document hierarchy.
 
    ```
 
-2. **Install PyTorch**
+2. **Create a Virtual Environment**
+
+   ```bash
+   python -m venv pipeline
+
+   ```
+
+3. **Activate the Virtual Environment**:
+
+   - On Windows:
+
+     ```bash
+     .\pipeline\Scripts\activate
+     ```
+
+   - On macOS/Linux:
+
+     ```bash
+     source pipeline/bin/activate
+     ```
+
+4. **Install PyTorch**
 
    Follow the official installation instructions based on your OS, Python version, and whether you want CPU or GPU support:
 
@@ -29,7 +50,7 @@ tables, and document hierarchy.
 
    ```
 
-3. Install dependencies:
+5. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
